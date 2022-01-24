@@ -18,20 +18,24 @@ body {
 .header {
   background-color: burlywood;
   padding: 15px;
+  border: 1px solid grey;
 }
 
 .nav {
   background-color: cadetblue;
   padding: 15px;
+  border: 1px solid grey;
 }
 
 .leftside {
   background-color: crimson;
   padding: 15px;
+  border: 1px solid grey;
 }
 
 .main {
   background-color: darkkhaki;
   padding: 15px;
+  border: 1px solid grey;
 }
 /*# sourceMappingURL=main.css.map */

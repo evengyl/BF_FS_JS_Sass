@@ -1,3 +1,6 @@
+$main-padding:15px;
+$main-border:1px solid grey;
+$main-width:1200px;
 
 *{
     box-sizing: border-box;
@@ -9,29 +12,37 @@ body{
 }
 
 .container{
-    width: 1200px;
-    padding:15px;
+    width: $main-width;
+    padding:$main-padding;
     margin:auto;
-    border:1px solid grey;
+    border:$main-border;
 }
 
 .header{
     background-color: burlywood;
-    padding:15px;
+    padding:$main-padding;
+    border:$main-border;
+
 }
 
 .nav{
     background-color: cadetblue;
-    padding:15px;
+    padding:$main-padding;
+    border:$main-border;
+
 }
 
 .leftside{
     background-color: crimson;
-    padding:15px;
+    padding:$main-padding;
+    border:$main-border;
+
 }
 
 .main{
     background-color: darkkhaki;
-    padding:15px;
+    padding:$main-padding;
+    border:$main-border;
+
 }
 
