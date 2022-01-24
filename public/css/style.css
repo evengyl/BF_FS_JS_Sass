@@ -63,16 +63,178 @@ table {
   border: 1px solid grey;
 }
 
-.nav {
+.header .nav {
   background-color: cadetblue;
   padding: 15px;
   border: 1px solid grey;
+}
+
+.header .nav li {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.header .nav li a {
+  text-decoration: none;
+  height: 50px;
+  width: 300px;
+  background-color: #c5c5c5;
+  padding: 10px;
+  color: blue;
+  color: #172d57;
+}
+
+.header .nav li a:hover {
+  color: green;
 }
 
 .leftside {
   background-color: crimson;
   padding: 15px;
   border: 1px solid grey;
+}
+
+.leftside li {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.leftside li a {
+  text-decoration: none;
+  height: 50px;
+  width: 300px;
+  background-color: #c5c5c5;
+  padding: 10px;
+  color: blue;
+  color: #172d57;
+}
+
+.leftside li a:hover {
+  color: green;
+}
+
+.col-1 {
+  width: 8.33333%;
+  float: left;
+}
+
+.col-2 {
+  width: 16.66667%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33333%;
+  float: left;
+}
+
+.col-5 {
+  width: 41.66667%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33333%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66667%;
+  float: left;
+}
+
+.col-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33333%;
+  float: left;
+}
+
+.col-11 {
+  width: 91.66667%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+.col-1 {
+  width: 8.33333%;
+  float: left;
+}
+
+.col-2 {
+  width: 16.66667%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33333%;
+  float: left;
+}
+
+.col-5 {
+  width: 41.66667%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33333%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66667%;
+  float: left;
+}
+
+.col-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33333%;
+  float: left;
+}
+
+.col-11 {
+  width: 91.66667%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+body {
+  font-size: 1rem;
 }
 
 .container {
@@ -82,9 +244,34 @@ table {
   border: 1px solid grey;
 }
 
+@media screen and (max-width: 576px) {
+  .container {
+    width: 560px;
+    background-color: black;
+  }
+}
+
 .main {
   background-color: darkkhaki;
   padding: 15px;
   border: 1px solid grey;
+}
+
+.main p {
+  font-family: "Courier New";
+  font-size: 24px;
+  color: rgb(129, 101, 255);
+  padding-left: 50px;
+}
+
+.main .sectionL p {
+  padding-top: 50px;
+}
+
+.main .sectionR {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 /*# sourceMappingURL=style.css.map */

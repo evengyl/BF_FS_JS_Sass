@@ -1,0 +1,13 @@
+@mixin writerFont($family, $size, $color, $paddingL)
+{
+    font-family: $family;
+    font-size: #{$size};
+    color:#{$color};
+    padding-left: #{$paddingL};
+}
+
+
+@function rem($size, $base : 16px)
+{
+    @return 1rem * $size / $base
+}

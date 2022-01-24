@@ -3,4 +3,5 @@
     padding:$main-padding;
     border:$main-border;
 
+    @include navLink;
 }

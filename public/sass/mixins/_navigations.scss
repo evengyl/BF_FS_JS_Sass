@@ -1,0 +1,27 @@
+@mixin navLink {
+
+    li{
+        padding:20px;
+        font-size:16px;
+
+        a{
+            text-decoration: none;
+            height:50px;
+            width:300px;
+            background-color: $bg-button-menu;
+            padding:10px;
+
+            color:blue;
+            @if(lightness($bg-button-menu) > 50%){
+                color:$color-dark-button-menu;
+            }
+            @else{
+                color:$color-light-button-menu;
+            }
+
+            &:hover{
+                color:green;
+            }
+        }
+    }
+}

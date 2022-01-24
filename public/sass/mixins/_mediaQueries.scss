@@ -1,0 +1,34 @@
+@mixin x-small{
+    @media screen and(max-width:#{$ma-w--x-small})
+    {
+        @content;
+    }
+}
+
+@mixin small{
+    @media screen and(min-width:#{$mi-w--small}) and (max-width:#{$ma-w--small})
+    {
+        @content;
+    }
+}
+
+@mixin medium{
+    @media screen and(min-width:#{$mi-w--medium}) and (max-width:#{$ma-w--medium})
+    {
+        @content;
+    }
+}
+
+@mixin large{
+    @media screen and(min-width:#{$mi-w--large}) and (max-width:#{$ma-w--large})
+    {
+        @content;
+    }
+}
+
+@mixin x-large{
+    @media screen and(min-width:#{$ma-w--x-large})
+    {
+        @content;
+    }
+}

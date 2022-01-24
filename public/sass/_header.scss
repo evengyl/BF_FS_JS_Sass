@@ -3,12 +3,11 @@
     padding:$main-padding;
     border:$main-border;
 
+    .nav{
+        background-color: cadetblue;
+        padding:$main-padding;
+        border:$main-border;
+        
+        @include navLink
+    }
 }
-
-.nav{
-    background-color: cadetblue;
-    padding:$main-padding;
-    border:$main-border;
-
-}
-

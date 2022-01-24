@@ -1,12 +1,37 @@
+@include gcol();
+
+body{
+    font-size: rem(16px);
+}
+
 .container{
     width: $main-width;
     padding:$main-padding;
     margin:auto;
     border:$main-border;
+
+    @include x-small{
+        width:560px;
+        background-color: black;
+    }
 }
 
 .main{
     background-color: darkkhaki;
     padding:$main-padding;
     border:$main-border;
+
+    p{
+        @include writerFont("Courier New", "24px", "rgb(129, 101, 255)", "50px")
+    }
+
+    .sectionL p
+    {
+        @include pg("top", "50px")
+    }
+
+    .sectionR
+    {
+        @include gpg("25px","left", "right", "top", "bottom")
+    }
 }

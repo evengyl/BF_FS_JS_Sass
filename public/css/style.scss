@@ -1,4 +1,10 @@
 @import "../sass/variables";
+@import "../sass/mixins/mediaQueries";
+
+
+@import "../sass/mixins/navigations";
+@import "../sass/mixins/font";
+@import "../sass/mixins/generals";
 
 @import "../sass/reset";
 @import "../sass/header";
